@@ -2,6 +2,7 @@
 Reconstruct path in 3d for a detected object in 2d 
 
 # Dir structure :
+```bash
 .
 ├── camera_calib
 │   └── calib_cam.py
@@ -20,7 +21,7 @@ Reconstruct path in 3d for a detected object in 2d
 ├── requirements.txt
 └── test_vids
     └── recorded_video_0.avi
-
+```
 
 # Work-flow : 
 (Model) ----> obj_detection ----> data_cords.csv ----> xywh_2_xyr ----> xyr_cords.csv ---> 3d_plot
